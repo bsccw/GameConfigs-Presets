@@ -41,6 +41,10 @@ Game-Configs-Presets 是一个专注于《Counter-Strike 2 (CS2)》的配置文�
    
    提供针对不同硬件的优化视频设置。
    可以手动将内容复制到 video.cfg 文件中，以优化你的 CS2 画质。
+   
+    将文件复制到以下目录：
+   
+         Windows: C:\Program Files (x86)\Steam\userdata\<你的 Steam ID>\730\local\cfg
 
 5. 跑图设置 (run_map.cfg)
    
