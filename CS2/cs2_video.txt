@@ -1,0 +1,47 @@
+"video.cfg"
+{
+	"Version"		"15"	// 配置文件版本号
+	"VendorID"		"4318"	// 显卡厂商 ID（4318 通常为 NVIDIA）
+	"DeviceID"		"7041"	// 显卡设备 ID（具体型号对应）
+	
+	"setting.cpu_level"		"2"	// CPU 性能等级（0 为低，1 为中，2 为高）
+	"setting.gpu_mem_level"		"3"	// GPU 显存使用等级（0 为低，3 为高）
+	"setting.gpu_level"		"3"	// GPU 性能等级（0 为低，3 为高）
+	
+	"setting.knowndevice"		"1"	// 设备是否已被识别（1 表示已识别）
+	
+	"setting.defaultres"		"1280"	// 默认屏幕宽度分辨率
+	"setting.defaultresheight"		"960"	// 默认屏幕高度分辨率
+	
+	"setting.refreshrate_numerator"		"143855"	// 屏幕刷新率的分子（如 143855/1000 = 143.855 Hz）
+	"setting.refreshrate_denominator"		"1000"	// 屏幕刷新率的分母
+	
+	"setting.fullscreen"		"1"	// 是否启用全屏模式（1 为全屏，0 为窗口模式）
+	"setting.coop_fullscreen"		"0"	// 协作模式下是否启用全屏（0 为关闭）
+	"setting.nowindowborder"		"0"	// 窗口模式下是否移除边框（1 为无边框，0 为有边框）
+	
+	"setting.mat_vsync"		"0"	// 垂直同步（VSync）开关（0 为关闭，1 为启用）
+	"setting.fullscreen_min_on_focus_loss"		"1"	// 全屏模式下失去焦点时最小化（1 为启用）
+	"setting.high_dpi"		"0"	// 高 DPI 支持（0 为关闭，1 为启用）
+
+	"Autoconfig"		"2"	// 自动配置等级（1 为自动，2 为手动调整过的配置）
+
+	"setting.shaderquality"		"1"	// 着色器质量（0 为低，1 为中，2 为高）
+	"setting.r_texturefilteringquality"		"5"	// 纹理过滤质量（0 为双线性，5 为各向异性 16x）
+	"setting.msaa_samples"		"8"	// MSAA 抗锯齿采样数（0 为关闭，8 为最高）
+
+	"setting.r_csgo_cmaa_enable"		"0"	// 是否启用 CMAA 抗锯齿（0 为关闭）
+	
+	"setting.videocfg_shadow_quality"		"3"	// 阴影质量（0 为低，3 为高）
+	"setting.videocfg_dynamic_shadows"		"1"	// 是否启用动态阴影（0 为关闭，1 为启用）
+
+	"setting.videocfg_texture_detail"		"2"	// 纹理细节（0 为低，2 为中等，3 为高）
+	"setting.videocfg_particle_detail"		"3"	// 粒子效果细节（0 为低，3 为高）
+	"setting.videocfg_ao_detail"		"3"	// 环境光遮蔽（AO）质量（0 为低，3 为高）
+	"setting.videocfg_hdr_detail"		"-1"	// HDR 细节设置（-1 为关闭，0 为启用）
+	"setting.videocfg_fsr_detail"		"0"	// 是否启用 AMD FSR（0 为关闭）
+
+	"setting.monitor_index"		"0"	// 使用的显示器索引（0 为主显示器）
+	"setting.r_low_latency"		"2"	// 低延迟模式（0 为关闭，1 为低延迟，2 为超低延迟）
+	"setting.aspectratiomode"		"0"	// 宽高比模式（0 为自动，1 为 4:3，2 为 16:9 等）
+}
